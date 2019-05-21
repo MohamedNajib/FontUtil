@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_Bold"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_BoldItalic"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_Italic"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_Light"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_LightItalic"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_Medium"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_MediumItalic"/>
+    <com.example.fontutil.TextViewCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android Developer"
+        android:textSize="20sp"
+        app:font_name="@string/Ubuntu_Regular"/>
+
+    <com.example.fontutil.EditTextCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_LightItalic"
+        android:text="Android "/>
+    <com.example.fontutil.EditTextCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_MediumItalic"
+        android:text="Android "/>
+    <com.example.fontutil.EditTextCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_Italic"
+        android:text="Android "/>
+
+    <com.example.fontutil.CheckBoxCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_LightItalic"
+        android:text="Android "/>
+    <com.example.fontutil.CheckBoxCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_MediumItalic"
+        android:text="Android "/>
+    <com.example.fontutil.CheckBoxCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_Italic"
+        android:text="Android "/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.example.fontutil.RadioButtonCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="Android"
+            android:textColor="@color/colorPrimary"
+            app:font_name="@string/Ubuntu_Italic" />
+
+        <com.example.fontutil.RadioButtonCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Android"
+            android:textColor="@color/colorPrimary"
+            app:font_name="@string/Ubuntu_MediumItalic" />
+
+        <com.example.fontutil.RadioButtonCustomFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Android"
+            android:textColor="@color/colorPrimary"
+            app:font_name="@string/Ubuntu_LightItalic" />
+    </RadioGroup>
+
+    <com.example.fontutil.ButtonCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_LightItalic"
+        android:text="Android "/>
+    <com.example.fontutil.ButtonCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_MediumItalic"
+        android:text="Android "/>
+    <com.example.fontutil.ButtonCustomFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font_name="@string/Ubuntu_Italic"
+        android:text="Android "/>
+
+
+</LinearLayout>
