@@ -22,8 +22,8 @@ public class SwitchCustomFont extends Switch {
     }
 
     private void applyNewCustomTypeface(Context context, AttributeSet attributeSet) {
-        TypedArray typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.ButtonCustomFont);
-        String customFont = typedArray.getString(R.styleable.ButtonCustomFont_font_name);
+        TypedArray typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.SwitchCustomFont);
+        String customFont = typedArray.getString(R.styleable.SwitchCustomFont_font_name);
         applyNewCustomTypeface(context, customFont);
         typedArray.recycle();
     }

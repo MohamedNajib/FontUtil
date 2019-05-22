@@ -22,8 +22,8 @@ public class TextInputLayoutCustomFont extends android.support.design.widget.Tex
     }
 
     private void applyNewCustomTypeface(Context context, AttributeSet attributeSet) {
-        TypedArray typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.ButtonCustomFont);
-        String customFont = typedArray.getString(R.styleable.ButtonCustomFont_font_name);
+        TypedArray typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.TextInputLayoutCustomFont);
+        String customFont = typedArray.getString(R.styleable.TextInputLayoutCustomFont_font_name);
         applyNewCustomTypeface(context, customFont);
         typedArray.recycle();
     }
