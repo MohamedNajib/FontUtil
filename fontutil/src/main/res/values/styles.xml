@@ -25,4 +25,16 @@
         <attr name="font_name" />
     </declare-styleable>
 
+    <declare-styleable name="TextInputLayoutCustomFont">
+        <attr name="font_name" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchCustomFont">
+        <attr name="font_name"/>
+    </declare-styleable>
+
+    <declare-styleable name="ToggleButtonCustomFont">
+        <attr name="font_name"/>
+    </declare-styleable>
+
 </resources>
